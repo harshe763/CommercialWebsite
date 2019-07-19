@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap 101 Template</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "css/styles.css" rel = "stylesheet">
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-static-top">
+	<div class="container">
+
+		<a href="#" class="navbar-brand">Tech Site</a>
+
+		<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+
+<div class="collapse navbar-collapse navHeaderCollapse"> 
+<ul class="nav navbar-nav navbar-right">
+	<li class="active"><a href="index.html">Home</a></li>
+	<li><a href="#">Blog</a></li>
+	<li class="dropdown">
+
+<a href="#" class="dropdown-toggle" data-toggle= "dropdown">Social Media <b class="caret"></b></a>
+<ul class="dropdown-menu">
+	<li><a href="https://twitter.com/MiamiHEAT?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
+	<li><a href="https://www.facebook.com/MiamiHeat/">Facebook</a></li>
+	<li><a href="https://www.youtube.com/user/miamiheat">Youtube</a></li>
+	<li><a href="https://www.instagram.com/miamiheat/?hl=en">Instagram</a></li>
+	<li><a href="https://www.snapchat.com/add/miamiheat">Snapchat</a></li>
+
+</ul>
+	</li>
+	<li><a href="#">About</a></li>
+	<li><a href="#contact" data-toggle="modal">Contact</a></li>
+</ul>
+</div>
+		
+	</div>
+	</div>
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-9">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="page-header">
+					<h3>Hi<small> Posted on</small></h3>	
+					</div>
+					<img class="featuring"src ="img/miamiheat.jpg" width="100%">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla placerat vestibulum. Aliquam dictum odio est, at tincidunt magna faucibus at. Sed hendrerit porta mi in pulvinar. Nam ut urna non purus feugiat viverra. Donec sit amet odio ligula. Curabitur vehicula fringilla turpis ut cursus. Aliquam auctor pharetra nunc non tempus. Nunc id ex ut urna egestas cursus. Cras elementum, libero in volutpat convallis, lectus ligula rutrum ex, eget scelerisque urna risus rutrum ante. Suspendisse potenti. Aenean varius sed ligula vel ultrices. Phasellus et erat at diam elementum aliquet. Nulla quis tortor et massa viverra imperdiet at non orci. </p>
+					<h4>A heading</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla placerat vestibulum. Aliquam dictum odio est, at tincidunt magna faucibus at. Sed hendrerit porta mi in pulvinar. Nam ut urna non purus feugiat viverra. Donec sit amet odio ligula. Curabitur vehicula fringilla turpis ut cursus. Aliquam auctor pharetra nunc non tempus. Nunc id ex ut urna egestas cursus. Cras elementum, libero in volutpat convallis, lectus ligula rutrum ex, eget scelerisque urna risus rutrum ante. Suspendisse potenti. Aenean varius sed ligula vel ultrices. Phasellus et erat at diam elementum aliquet. Nulla quis tortor et massa viverra imperdiet at non orci. </p>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3">
+			<div class="list-group">
+				<a href="https://www.miamiherald.com/sports/spt-columns-blogs/greg-cote/article232838407.html" class="list-group-item active">
+					<h4 class="list-group-item-heading">Miami Heat Offseason</h4>
+					<p class="list-group-item-text"> Miami got rid of Whiteside's heavy contract and Dragic's veteran contract as well as the young asset of Josh Richardson.Straight off that looks bad but Miami won their offseason by picking up Jimmy Butler an allstar.Still possibilities of getting other players and now Miami can be a big contender in the east.</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Lorem ipsum</h4>
+					<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla placerat vestibulum. Aliquam dictum odio est, at tincidunt magna faucibus at. Sed hendrerit porta mi in pulvinar.  </p>
+				</a>
+				
+				</a>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="navbar navbar-default navbar-fixed-bottom">
+	<div class="container">
+		<p class="navbar-text pull-left">Site Built By Harsh Easwar</p>
+		<a href="#"class="navbar-btn btn-danger btn pull-right">Subscribe on YouTube</a>
+	</div>	
+	</div>
+
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form class="form-horizontal">
+				<div class="modal-header">
+					<h4>Contact Tech Website</h4>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<label for="contact-name" class="col-lg-2 control-label"> Name:</label>
+						<div class="col-lg-10">
+							<input type="text"class="form-control" id="contact-name"placeholder="Full Name">
+						</div>
+
+					</div>
+					<div class="form-group">
+						<label for="contact-email" class="col-lg-2 control-label"> Email:</label>
+						<div class="col-lg-10">
+							<input type="Email"class="form-control" id="contact-email"placeholder="you@example.com">
+						</div>
+
+					</div>
+					<div class="form-group">
+						<label for="contact-msg" class="col-lg-2 control-label"> Message:</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="8"></textarea>
+							
+						</div>
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a class="btn btn-default" data-dismiss="modal">Close</a>
+					<button class="btn btn-primary" type="submit"> Send </button>
+				</div>
+              </form>
+			</div>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
